@@ -1,1 +1,1 @@
-I need more basic skills
+I need more study and basic skills 😭
