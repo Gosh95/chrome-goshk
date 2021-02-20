@@ -1,2 +1,1 @@
-# chrome-goshk
- I have to study again ㅠㅠ
+I need more basic skills

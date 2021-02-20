@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chrome</title>
+	<link rel="stylesheet" href="src/index.css" />
+	<meta charset="utf-8" />
+</head>
+
+<body>
+	<span class="js-weather"></span>
+	<div class="js-clock">
+		<h1 class="js-clock__date">00</h1>
+		<h1 class="js-clock__time">00</h1>
+		<h1 class="js-clock__title">"JUST DO IT"</h1>
+	</div>
+<main>
+	<form class="js-form form">
+		<input type="text" placeholder="What's your name?" />
+	</form>
+	<h1 class="js-greeting greetings"></h1>
+
+	<input class="side-icon" type="checkbox" />
+	<div class="side">
+		<div class="side-toDo">
+		<form class="js-toDoForm">
+			<h1>Today's Plan</h1>
+			<input type="text" required placeholder="What should i do?" />
+		</form>
+		<h1>I'll Do</h1>
+			<ul class="js-pendingList ul"></ul>
+		<h1>I'm Done</h1>
+			<ul class="js-finishedList ul"></ul>
+		</div>
+	</div>
+</main>
+	<script src="src/clock.js"></script>
+	<script src="src/todolist.js"></script>
+	<script src="src/weather.js"></script>
+	<script src="src/user.js"></script>
+	<script src="src/bg.js"></script>
+</body>
+
+</html>
